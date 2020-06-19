@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>CosmoStore.ServiceStack</PackageId>
+    <Description>F# Event Store for All DB supported by ServiceStack</Description>
+    <RepositoryUrl>https://github.com/Dzoukr/CosmoStore</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/Dzoukr/CosmoStore/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageIconUrl>https://github.com/Dzoukr/CosmoStore/raw/master/logo.png</PackageIconUrl>
+    <PackageTags>Dapper Store</PackageTags>
+    <Authors>Roman Provazník;Kunjan Dalal</Authors>
+    <Version>3.0.0</Version>
+    <PackageReleaseNotes>Fixing problem with version number #41</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Library.fs" />
+    <Content Include="paket.references" />
+    <Content Include="RELEASE_NOTES.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CosmoStore\CosmoStore.fsproj" />
+  </ItemGroup>
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+
+</Project>

@@ -35,6 +35,10 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CosmoStore.ServiceStack", "
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CosmoStore.ServiceStack.Tests", "tests\CosmoStore.ServiceStack.Tests\CosmoStore.ServiceStack.Tests.fsproj", "{1A10A7DE-F206-4FFA-A837-81EA4476416A}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CosmoStore.Dapper", "src\CosmoStore.Dapper\CosmoStore.Dapper.fsproj", "{8BC3C392-64A7-4986-BE71-C6DE658416D0}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CosmoStore.Dapper.Tests", "tests\CosmoStore.Dapper.Tests\CosmoStore.Dapper.Tests.fsproj", "{7FE94EE5-D9A0-4821-9414-59251D492E23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{1A10A7DE-F206-4FFA-A837-81EA4476416A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A10A7DE-F206-4FFA-A837-81EA4476416A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A10A7DE-F206-4FFA-A837-81EA4476416A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC3C392-64A7-4986-BE71-C6DE658416D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC3C392-64A7-4986-BE71-C6DE658416D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC3C392-64A7-4986-BE71-C6DE658416D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC3C392-64A7-4986-BE71-C6DE658416D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE94EE5-D9A0-4821-9414-59251D492E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE94EE5-D9A0-4821-9414-59251D492E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE94EE5-D9A0-4821-9414-59251D492E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE94EE5-D9A0-4821-9414-59251D492E23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
